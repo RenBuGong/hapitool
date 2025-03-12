@@ -1,0 +1,15 @@
+# .env
+# .env*
+# tls
+# certs
+.svn/
+.venv/
+.conda/
+
+.cache/
+__pycache__
+
+
+wsl.automng/images
+wsl.automng/confirmed.mark.tmp.log
+
