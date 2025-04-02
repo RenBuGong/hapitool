@@ -3,8 +3,6 @@
 . "$PSScriptRoot\common.ps1"   # 加载多语言功能 & 其他公用函数
 
 function Set-WslDefaultUser {
-    # 显示现有的WSL实例
-    Show-InstalledDistributions
 
     # 获取用户输入
     $distroName = Read-Host (Get-Message "adduser_EnterDistro")

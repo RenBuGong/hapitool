@@ -108,7 +108,7 @@ $Messages = @{
 
         
         # ------------------ main.ps1 ------------------
-        "main_Title"           = "`n========================================================`n自动化管理 WSL`n作者: ipzu.com`n当前版本: 2025.3.13`n文档: https://ipzu.com/zh-cn/software/wsl/automng`n========================================================`n`n菜单选项:"
+        "main_Title"           = "`n========================================================`n自动化管理 WSL`n作者: ipzu.com`n当前版本: 2025.4.2`n文档: https://ipzu.com/zh-cn/software/wsl/automng`n========================================================`n`n菜单选项:"
         "main_MenuS"           = "S. 显示已安装的实例"
         "main_MenuD"           = "D. 下载镜像"
         "main_MenuC"           = "C. 从当前实例创建备份镜像"
@@ -309,7 +309,7 @@ $Messages = @{
         "install_NewDistroPrompt"= "Enter a name for the new distribution (or 'q' to return to main menu)"
 
         # ------------------ main.ps1 ------------------
-        "main_Title"           = "`n==========================================================`nAutomate management of WSL`nAuthor: ipzu.com`nCurrent version: 2025.3.13`nDocument: https://ipzu.com/zh-cn/software/wsl/automng`n=============================================================`n`nMenu options:"
+        "main_Title"           = "`n==========================================================`nAutomate management of WSL`nAuthor: ipzu.com`nCurrent version: 2025.4.2`nDocument: https://ipzu.com/zh-cn/software/wsl/automng`n=============================================================`n`nMenu options:"
         "main_MenuS"           = "S. Show installed instances"
         "main_MenuD"           = "D. Download image"
         "main_MenuC"           = "C. Create backup image from current instance"

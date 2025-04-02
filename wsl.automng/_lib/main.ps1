@@ -33,13 +33,13 @@ do {
         "D" { & "$PSScriptRoot\download.ps1"; & PauseToMain }
         "C" { & "$PSScriptRoot\show.ps1"; & "$PSScriptRoot\backup.ps1"; & PauseToMain }
         "I" { & "$PSScriptRoot\install.ps1"; & PauseToMain }
-        "U" { & "$PSScriptRoot\adduser.ps1"; & PauseToMain ; & PauseToMain }
+        "U" { & "$PSScriptRoot\show.ps1"; & "$PSScriptRoot\adduser.ps1"; & PauseToMain }
         "R" { & "$PSScriptRoot\show.ps1"; & "$PSScriptRoot\remove.ps1"; & PauseToMain }
         "M" { & "$PSScriptRoot\show.ps1"; & "$PSScriptRoot\migrate.ps1"; & PauseToMain }
         "H" { & "$PSScriptRoot\help.ps1"; & PauseToMain }
         "1" { & "$PSScriptRoot\show.ps1"; & "$PSScriptRoot\autostart.ps1"; & PauseToMain }
-        "2" { & "$PSScriptRoot\configure_ssh.ps1"; & PauseToMain ; & PauseToMain }
-        "3" { & "$PSScriptRoot\systemd_toggle.ps1"; & PauseToMain ; & PauseToMain }
+        "2" { & "$PSScriptRoot\show.ps1"; & "$PSScriptRoot\configure_ssh.ps1"; & PauseToMain }
+        "3" { & "$PSScriptRoot\show.ps1"; & "$PSScriptRoot\systemd_toggle.ps1"; & PauseToMain }
         "4" { & "$PSScriptRoot\toggle_network.ps1"; & PauseToMain }
 
         "E" {
