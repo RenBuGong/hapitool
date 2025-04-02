@@ -190,7 +190,7 @@ Write-Host (Get-Message "common_new_wsl_install_dir" $global:scriptConfig.new_ws
 ###############################################################################
 function Get-DistributionList {
     # 这里替换成你实际要使用的 JSON URL
-    $jsonUrl = "https://ipzu.com/en/software/wsl/DistributionInfo.v2502.json"
+    $jsonUrl = "https://ipzu.com/en/software/wsl/DistributionInfo.v2503.json"
     $jsonData = Invoke-RestMethod -Uri $jsonUrl
     $distributions = $jsonData.Distributions |
         Where-Object { $_.Name -and $_.Amd64PackageUrl } |
